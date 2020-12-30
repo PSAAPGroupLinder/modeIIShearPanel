@@ -14,13 +14,14 @@ ax = fig.add_subplot(111)
 files_gradient_enhanced_rankine = {
 # './gradient_enhanced_rankine/rankine_epsf=1e-1_ldam=1e-2.csv' : r'ge rankine: $\epsilon_f=\num{1e-1}, l=\SI{2}{1e-2}{mm}$', # too ductile
 # './gradient_enhanced_rankine/rankine_epsf=1e-1_ldam=2e-2.csv' : r'ge rankine: $\epsilon_f=\num{1e-1}, l=\SI{2}{2e-2}{mm}$', # too ductile
-'./gradient_enhanced_rankine/rankine_epsf=1e-2_ldam=1e-2.csv' : r'ge rankine: $\epsilon_f=\num{1e-2}, l=\SI{1e-2}{mm}$', 
-'./gradient_enhanced_rankine/rankine_epsf=1e-2_ldam=2e-2.csv' : r'ge rankine: $\epsilon_f=\num{1e-2}, l=\SI{2e-2}{mm}$', 
 './gradient_enhanced_rankine/rankine_epsf=1e-3_ldam=1e-2.csv' : r'ge rankine: $\epsilon_f=\num{1e-3}, l=\SI{1e-2}{mm}$', 
 './gradient_enhanced_rankine/rankine_epsf=1e-3_ldam=2e-2.csv' : r'ge rankine: $\epsilon_f=\num{1e-3}, l=\SI{2e-2}{mm}$', 
-# './gradient_enhanced_rankine/rankine_epsf=1e-4_ldam=1e-2.csv' : r'ge rankine: $\epsilon_f=\num{1e-4}, l=\SI{1e-2}{mm}$',  # aborted early
-# './gradient_enhanced_rankine/rankine_epsf=1e-4_ldam=2e-2.csv' : r'ge rankine: $\epsilon_f=\num{1e-4}, l=\SI{2e-2}{mm}$',  # aborted early
+'./gradient_enhanced_rankine/rankine_epsf=2.5e-3_ldam=1e-2.csv' : r'ge rankine: $\epsilon_f=\num{2.5e-3}, l=\SI{1e-2}{mm}$', 
+'./gradient_enhanced_rankine/rankine_epsf=2.5e-3_ldam=2e-2.csv' : r'ge rankine: $\epsilon_f=\num{2.5e-3}, l=\SI{2e-2}{mm}$', 
 './gradient_enhanced_rankine/rankine_epsf=5e-3_ldam=1e-2.csv' : r'ge rankine: $\epsilon_f=\num{5e-3}, l=\SI{1e-2}{mm}$', 
+'./gradient_enhanced_rankine/rankine_epsf=5e-3_ldam=1e-2.csv' : r'ge rankine: $\epsilon_f=\num{5e-3}, l=\SI{2e-2}{mm}$', 
+'./gradient_enhanced_rankine/rankine_epsf=7.5e-3_ldam=1e-2.csv' : r'ge rankine: $\epsilon_f=\num{7.5e-3}, l=\SI{1e-2}{mm}$', 
+'./gradient_enhanced_rankine/rankine_epsf=7.5e-3_ldam=2e-2.csv' : r'ge rankine: $\epsilon_f=\num{7.5e-3}, l=\SI{2e-2}{mm}$', 
 # './gradient_enhanced_rankine/rankine_epsf=5e-3_ldam=2e-2.csv' : r'ge rankine: $\epsilon_f=\num{5e-3}, l=\SI{2e-2}{mm}$',  # aborted early
 # './gradient_enhanced_rankine/rankine_epsf=5e-5_ldam=1e-2.csv' : r'ge rankine: $\epsilon_f=\num{5e-5}, l=\SI{2}{1e-2}{mm}$', # too brittle
 # './gradient_enhanced_rankine/rankine_epsf=5e-5_ldam=2e-2.csv' : r'ge rankine: $\epsilon_f=\num{5e-5}, l=\SI{2}{2e-2}{mm}$', # too brittle
